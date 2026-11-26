@@ -131,6 +131,20 @@ nav {
 
 .hero-image h3 { margin-bottom: 20px; }
 
+.hero-image {
+  min-height: 448px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  margin: auto 0;
+  border-radius: 10px;
+  border: 1px solid #e1eaf3;
+}
+
 .stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -480,18 +494,7 @@ footer a {
 
     <div class="hero-image">
       <h3>Business Overview</h3>
-      <div class="stats">
-        <div class="stat"><small>Bookings</small><strong>24</strong></div>
-        <div class="stat"><small>Revenue</small><strong>£1,280</strong></div>
-        <div class="stat"><small>Customers</small><strong>18</strong></div>
-      </div>
-      <div class="schedule">
-        <strong>Today's Schedule</strong>
-        <div>09:00 — Consultation</div>
-        <div>10:00 — Training Session</div>
-        <div>11:00 — Appointment</div>
-        <div>12:00 — Service Booking</div>
-      </div>
+      <img src="images/dashboard.jpeg" alt="XGTECH business dashboard showing revenue, appointments and customers">
     </div>
   </div>
 </section>
